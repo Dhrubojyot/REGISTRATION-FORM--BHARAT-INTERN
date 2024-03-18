@@ -1,0 +1,67 @@
+.main {
+    padding: 15px;
+    font-family: Arial;
+    box-shadow: 5px 5px 7px 5px #8888;
+    background: rgb(2,0,36);
+    background: linear-gradient(63deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);/* Gradient from top to bottom */
+    color: white; /* Text color */
+    width: 500px; /* Adjust width as needed */
+    margin: 0 auto; /* Center the form */
+    border-radius: 20px; /* Rounded corners for the form */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh; /* Ensure the container takes up the full viewport height */
+}
+
+.main h1 {
+    font-size: 50px;
+    text-align: center;
+    font-family: Arial;
+    padding-bottom: 15px;
+}
+
+input[type="text"], 
+input[type="email"], 
+input[type="tel"], 
+input[type="password"],
+input[type="submit"] {
+    width: 100%;
+    max-width: 400px; /* Adjust max-width as needed */
+    font-size: 20px;
+    padding: 12px 20px;
+    margin: 8px 0; /* Adjust vertical margin as needed */
+    border: none;
+    border-bottom: 2px solid #d1d1d1; /* Light gray border */
+    background-color: rgba(255, 255, 255); /* Transparent white background */
+    color: black; /* Text color */
+    border-radius: 20px; /* Rounded corners for input boxes */
+}
+
+input[type="submit"] {
+    background-image: linear-gradient(to right, #fe8c00 0%, #f83600  51%, #fe8c00  100%);
+    width: 100%; /* Full width */
+    max-width: 600px;
+    border: none;
+    color: white; /* Text color */
+    padding: 16px 26px; /* Adjust padding for medium size */
+    margin: 20px 0; /* Adjust vertical margin as needed */
+    border-radius: 5px;
+    cursor: pointer; /* Cursor style */
+    transition: 0.5s; /* Animation on background color change */
+    display: block;
+    background-size: 200% auto;
+}
+
+
+input[type="submit"]:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+
+         
+         
+
+ 
